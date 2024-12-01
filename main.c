@@ -39,7 +39,7 @@ int main() {
                 printf("(Run Code Again To Play Again)\n");
              }
              else if (num1 > 10) {
-               int sub = num1 - 9;
+               int sub = num1 - 8;
                if(guess > sub) {
                   printf("opponent num: %d\n",sub);
                   printf("You Win! (Run Code Again To Play Again)");
